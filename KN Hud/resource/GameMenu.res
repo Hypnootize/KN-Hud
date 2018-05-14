@@ -24,6 +24,7 @@
 		"label" "REPLAYS"
 		"command" "engine replay_reloadbrowser"
 		"subimage" "glyph_tv"
+		"OnlyAtMenu" "1"
 	}
 	// These buttons get positioned by the MainMenuOverride.res	
 	"CreateServerButton"

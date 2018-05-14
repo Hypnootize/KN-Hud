@@ -29,12 +29,13 @@
 		
 		if_match
 		{
-			"xpos"				"8"
+			"xpos"				"5"
+			"ypos"				"7"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"knFontRegular12"
 			"fgcolor"		"TanLight"
@@ -45,13 +46,12 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
-				"font"			"knFontRegular10"
-				"ypos"			"7"
+				"font"		"knFontRegular10"
 			}
 		}	
 	}
@@ -122,7 +122,8 @@
 		
 		if_match
 		{
-			"xpos"				"32"
+			"xpos"				"38"
+			"ypos"				"7"
 		}
 		
 		"TimePanelValue"
@@ -138,13 +139,12 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
-				"font"			"knFontRegular10"
-				"ypos"			"7"
+				"font"		"knFontRegular10"
 			}
 		}	
 	}
@@ -196,19 +196,24 @@
 	}
 	"ActiveTimerBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"ActiveTimerBG"
 		"xpos"			"0"
-		"ypos"			"19"	[$WIN32]
+		"ypos"			"19"
 		"zpos"			"4"
 		"wide"			"40"
 		"tall"			"2"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"	
+		"tabPosition"	"0"	
 		"fillcolor"		"knDamage3"
 		"PaintBackgroundType"	"0"	
+		
+		if_match
+		{
+			"xpos"		"9999"
+		}
 	}
 }

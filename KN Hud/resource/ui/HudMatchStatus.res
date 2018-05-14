@@ -267,15 +267,13 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-55"
-		"ypos"				"0"	[$WIN32]
-		"ypos"				"24"	[$X360]
+		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"110"
 		"tall"				"50"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"999999"	[$WIN32]
-		"delta_item_x"			"999999"	[$X360]
+		"delta_item_x"			"999999"
 		"delta_item_start_y"	"999999"
 		"delta_item_end_y"		"999999"
 		"PositiveColor"			"0 255 0 255"
@@ -285,6 +283,7 @@
 		
 		if_match
 		{
+			"ypos"				"-3"
 			"zpos"				"5"
 		}
 		
@@ -303,11 +302,6 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-			
-			if_match
-			{
-				"ypos"			"7"
-			}
 		}	
 	}
 	
