@@ -1148,7 +1148,7 @@
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
 		"fieldName"			"MvMScoreboard"
-		"xpos"				"0"
+		"xpos"				"c-300"
 		"ypos"				"0"
 		"zpos"				"10"
 		"wide"				"f0"
